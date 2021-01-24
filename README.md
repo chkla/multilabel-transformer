@@ -1,5 +1,5 @@
 # Multilabel Classification with Huggingface’ 🤗 Trainer 💪 and AdapterHub 🤖: A short Tutorial for Multilabel Classification with Language Models
-If you are a fan of the HuggingFace API 🤗, you may have noticed the new  [trainer 💪 class] (introduced in version 2.9):
+If you are a fan of the HuggingFace API 🤗, you may have noticed the new trainer 💪 class (introduced in version 2.9):
 
 ```python
 trainer = Trainer(
@@ -12,4 +12,8 @@ trainer = Trainer(
 )
 ```
 
-The trainer class provides an easy way to do the training process for tuning your own language model (e.g., BERT - if you have never heard of language models like BERT before, you should stop here first and look at this amazing [blog post]) in a few lines of code, with all the options to customize the training (check out an example provided by [HuggingFace for sentence classification]).
+The trainer class provides an easy way to do the training process for tuning your own language model (e.g., BERT - if you have never heard of language models like BERT before, you should stop here first and look at this amazing blog post) in a few lines of code, with all the options to customize the training (check out an example provided by HuggingFace for sentence classification).
+
+The official tutorial only provides you a way to use it without the new trainer 💪 class. I will show in this notebook a small example using AdapterHub 🤖 doing the job for you by providing a multilabel head out-of-the box.
+
+Happy Researching!
