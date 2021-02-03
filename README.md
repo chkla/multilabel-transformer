@@ -16,4 +16,10 @@ The trainer class provides an easy way to do the training process for tuning you
 
 The official tutorial only provides you a way to use it without the new trainer 💪 class. I will show in this notebook a small example using AdapterHub 🤖 doing the job for you by providing a multilabel head out-of-the box.
 
+| type        | notebook           |
+| ------------- |:-------------:|
+| adapter      | right-aligned |
+| multi-BERTmodel     | centered      |
+| training loss | are neat      |
+
 Happy Researching!
