@@ -18,7 +18,7 @@ The official tutorial only provides you a way to use it without the new trainer 
 
 | type        | notebook           |
 | ------------- |:-------------:|
-| adapter      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
+| adapter      | ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)
  |
 | multi-BERTmodel     |  [[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aF4WeuNYDsIVWnp2xYMTgeRGQOAodO1g?usp=sharing)     |
 | training loss | are neat      |
