@@ -12,16 +12,17 @@ trainer = Trainer(
 )
 ```
 
+
 The trainer class provides an easy way to do the training process for tuning your own language model (e.g., BERT - if you have never heard of language models like BERT before, you should stop here first and look at this amazing blog post) in a few lines of code, with all the options to customize the training (check out an example provided by HuggingFace for sentence classification).
 
 The official tutorial only provides you a way to use it without the new trainer 💪 class. I will show in this notebook a small example using AdapterHub 🤖 doing the job for you by providing a multilabel head out-of-the box.
 
-https://colab.research.google.com/drive/1xoL6ncoFGQnRHmFx-w9D_LAQMLEMHoa_?usp=sharing
 
 | type        | notebook           |
 | ------------- |:-------------:|
 | multilabel-adapter      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xoL6ncoFGQnRHmFx-w9D_LAQMLEMHoa_?usp=sharing) |
 | multilabel-transformer     |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aF4WeuNYDsIVWnp2xYMTgeRGQOAodO1g?usp=sharing)     |
+
 
 You can also use the fast lane 🚀 by importing the `MultilabelTransformer` provided in this repository.
 ```python
@@ -31,5 +32,6 @@ model = MultilabelRobertaForSequenceClassification.from_pretrained('roberta-base
 ```
 
 _Note: `MultilabelTransformer` currently supports `MultilabelRobertaForSequenceClassification` and `MultilabelBertForSequenceClassification`._
+
 
 Happy Researching 👨‍🔬!
