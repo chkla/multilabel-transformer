@@ -30,4 +30,4 @@ model = MultilabelRobertaForSequenceClassification.from_pretrained('roberta-base
 
 _Note: `MultilabelTransformer` currently supports `MultilabelRobertaForSequenceClassification` and `MultilabelBertForSequenceClassification`._
 
-Happy Researching!
+Happy Researching 👨‍🔬!
