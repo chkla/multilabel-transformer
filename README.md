@@ -28,6 +28,6 @@ from MultilabelTransformer import MultilabelRobertaForSequenceClassification
 model = MultilabelRobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=N)
 ```
 
-_Note: `MultilabelTransformer` currently support `MultilabelRobertaForSequenceClassification` and `MultilabelBertForSequenceClassification`._
+_Note: `MultilabelTransformer` currently supports `MultilabelRobertaForSequenceClassification` and `MultilabelBertForSequenceClassification`._
 
 Happy Researching!
