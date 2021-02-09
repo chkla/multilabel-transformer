@@ -21,11 +21,13 @@ The official tutorial only provides you a way to use it without the new trainer 
 | adapter      | xxx |
 | multi-BERTmodel     |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aF4WeuNYDsIVWnp2xYMTgeRGQOAodO1g?usp=sharing)     |
 
-You can also use the fast lane by importing the `MultilabelTransformer` provided in this repository.
+You can also use the fast lane 🚀 by importing the `MultilabelTransformer` provided in this repository.
 ```python
 from MultilabelTransformer import MultilabelRobertaForSequenceClassification
 
 model = MultilabelRobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=N)
 ```
+
+_Note: `MultilabelTransformer` currently support `MultilabelRobertaForSequenceClassification` and `MultilabelBertForSequenceClassification`._
 
 Happy Researching!
