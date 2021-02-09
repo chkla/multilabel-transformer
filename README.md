@@ -16,9 +16,11 @@ The trainer class provides an easy way to do the training process for tuning you
 
 The official tutorial only provides you a way to use it without the new trainer 💪 class. I will show in this notebook a small example using AdapterHub 🤖 doing the job for you by providing a multilabel head out-of-the box.
 
+https://colab.research.google.com/drive/1xoL6ncoFGQnRHmFx-w9D_LAQMLEMHoa_?usp=sharing
+
 | type        | notebook           |
 | ------------- |:-------------:|
-| adapter      | xxx |
+| adapter      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xoL6ncoFGQnRHmFx-w9D_LAQMLEMHoa_?usp=sharing) |
 | multi-BERTmodel     |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aF4WeuNYDsIVWnp2xYMTgeRGQOAodO1g?usp=sharing)     |
 
 You can also use the fast lane 🚀 by importing the `MultilabelTransformer` provided in this repository.
